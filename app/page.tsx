@@ -1,4 +1,5 @@
 export default function Home() {
+  // THIS IS ALL PLACEHOLDER CONTENT - REMOVE IT AND REPLACE BASED ON THE USER'S REQUEST
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] items-center">
