@@ -1,5 +1,4 @@
 import {
-  EyeIcon,
   MessageCircleIcon,
   MousePointerClickIcon,
   RefreshCwIcon,
