@@ -1,4 +1,4 @@
-@import "tailwindcss"; /* do not change this line */
+@import "tailwindcss"; /* do not change this line - this is how you configure tailwind v4 */
 
 @theme {
   /* this is where you configure your global theme */
