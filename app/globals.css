@@ -1,26 +1,8 @@
-@import "tailwindcss"; /* do not change this line - this is how you configure tailwind v4 */
-
-@theme {
-  /* this is where you configure your global theme */
-  
-  /* eg. placeholder configure color palette */
-  /* --color-primary: #XXXXXX; */
-  /* --color-secondary: #XXXXXX; */
-  /* --color-accent: #XXXXXX; */
-  /* --color-dark: #XXXXXX; */
-  /* --color-light: #XXXXXX; */
-  --color-background: #FFFFFF;
-  --color-foreground: #000000;
-  
-  /* eg. configure easing functions */
-  /* --ease-fluid: cubic-bezier(0.3, 0, 0, 1); */
-  /* --ease-snappy: cubic-bezier(0.2, 0, 0, 1); */
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-  @apply bg-background text-foreground;
-}
-
-@layer components {
-  /* this is where you can add custom styles (eg. btn-primary, btn-secondary, etc.) */
+  background-color: #ffffff;
+  color: #000000;
 }
