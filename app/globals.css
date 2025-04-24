@@ -9,3 +9,20 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-rgb));
 }
+
+@theme {
+  /* eg. configure font family */
+  /* --font-display: "Satoshi", "sans-serif"; */
+
+  /* eg. configure color palette */
+  /* --color-primary: #XXXXXX; */
+  /* --color-secondary: #XXXXXX; */
+  /* --color-accent: #XXXXXX; */
+  /* --color-dark: #XXXXXX; */
+  /* --color-light: #XXXXXX; */
+
+  /* eg. configure easing functions */
+  /* --ease-fluid: cubic-bezier(0.3, 0, 0, 1); */
+  /* --ease-snappy: cubic-bezier(0.2, 0, 0, 1); */
+}
+
